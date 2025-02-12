@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Fondo del navegador */
+.browser-background {
+    background-color: #f0f0f0; /* Color de fondo del navegador */
+    padding: 20px;
+}
+
+/* Fondo principal */
+.main-background {
+    background-color: #ffffff; /* Color de fondo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Encabezado */
+header {
+    background-color: #e0e0e0; /* Color de fondo del encabezado */
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+header img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Aside */
+aside {
+    width: 200px;
+    background-color: #f8f8f8; /* Color de fondo del aside */
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Main */
+main {
+    flex: 1; /* Ocupar el espacio restante */
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* Galería de imágenes */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Espacio entre imágenes */
+}
+
+.image-gallery img {
+    max-width: 23%; /* Ajustar el ancho de las imágenes */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color de texto del pie de página */
+    padding: 20px;
+    text-align: center;
+}
